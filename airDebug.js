@@ -6,10 +6,10 @@
 
 */
 
-var debug = require('debug');
 
 module.exports = function( pattern ){
 
+	var debug = require('debug');
 	var _airDebug = debug(pattern);
 	var airDebug = null;
 

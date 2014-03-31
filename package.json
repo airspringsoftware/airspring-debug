@@ -1,6 +1,6 @@
 {
   "name": "airspring-debug",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "airspring wrapper for debug module",
   "keywords": [
     "debug"
@@ -14,7 +14,7 @@
     "url": "https://github.com/airspring/airspring-debug.git"
   },
   "dependencies": {
-    "debug": "0.8.0",
+    "debug": "0.8.0"
   },
-  "main": "airDebug.js",
+  "main": "airDebug.js"
 }

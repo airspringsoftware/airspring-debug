@@ -1,0 +1,20 @@
+{
+  "name": "airspring-debug",
+  "version": "0.0.1",
+  "description": "airspring wrapper for debug module",
+  "keywords": [
+    "debug"
+  ],
+  "author": {
+    "name": "Jim Knochelmann",
+    "email": "jim@airspringsoftware.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airspring/airspring-debug.git"
+  },
+  "dependencies": {
+    "debug": "0.8.0",
+  },
+  "main": "airDebug.js",
+}

@@ -16,9 +16,9 @@ module.exports = function( pattern ){
 	// In the case of tests logger may not exist, or may be a different
 	// logger object from the testing framework. Just use default behavior
 	// if we don't have an airspring logger.
-	if ( typeof logger !== 'undefined' && logger.airspringDebug ) {
+	if ( typeof airLogger !== 'undefined' && airLogger.airspringDebug ) {
 		airDebug = function(){
-			logger.debug(_airDebug, arguments);
+			airLogger.debug(_airDebug, arguments);
 		};
 	}
 	else{
